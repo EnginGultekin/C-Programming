@@ -4,10 +4,9 @@
 
 int main(void)
 {
-
     // Take a string
     string text = get_string("Enter the text: ");
-
+    
     printf("Reverse Text: ");
     //just print the string in reverse
     for(int i = 1; i<=strlen(text); i++){
