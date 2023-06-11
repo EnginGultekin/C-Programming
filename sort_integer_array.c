@@ -35,5 +35,5 @@ void SortIntArr(int count, int array[]){
      for(int i=0; i < count; i++){
          printf("%d, ", array[i]);
     }
-    printf("\n\n");
+    printf("\n");
 }
