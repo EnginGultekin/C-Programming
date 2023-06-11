@@ -5,14 +5,16 @@ void SortIntArr(int count, int array[]);
 
 int main(void)
 {
-
+    // number of elements
     int count = get_int("Enter the array size: ");
     int array[count];
 
+    // get numbers from user
     for(int i=0; i < count; i++){
         array[i] = get_int("Enter the %d. number: ", (i+1));
     }
- 
+    
+    // call the sort function
     SortIntArr(count, array);
 }
 
